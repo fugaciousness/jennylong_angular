@@ -1,0 +1,38 @@
+<section id="about">
+<h2>About Jenny Long</h2>
+  <h4>Who am I?</h4>
+  <p>
+      I am a Core Power certified yoga instructor. I have...consectetur adipiscing elit. Phasellus lobortis quis libero a ultrices. In tincidunt tortor ullamcorper scelerisque iaculis. Sed tellus felis, tempus tincidunt ullamcorper eu, accumsan consectetur lorem. Vestibulum lacinia nisi at ultricies tempor. Phasellus vel neque a ligula porttitor vulputate sit amet ac urna. Nulla facilisi. In hac habitasse platea dictumst. 
+  </p>
+
+  <div id="yogi-info" class="container-fluid" >
+    <h4>Just as important, however: who are you?</h4>
+    <h5>(I know you're more than a series of blanks, but this will get us started)</h5>
+
+    <!--maybe put in thanks, [name] here? -->
+    <form action="thanks.htm" method="submit" id="yogi-form">
+        <div>
+          <label for="name">Name:</label>
+          <input id="name" type="text" name="firstname" value="whatever you like to go by">
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" name="email" value="some way to be in touch">
+        </div>
+        <div>
+          <label for="experience">Yoga Experience:</label>
+          <input type="text" name="experience" value="beginner? old hat?">
+        </div>
+        <div>
+          <label for="comments">Questions/Thoughts?</label>
+          <textarea name="comments" form="yogi-form">Anything you'd like to say or ask..</textarea>
+        </div>
+        <button class="submit-button">Submit</button>
+    </form>
+  </div>
+</section>
+ <script>
+      $(document).ready(function(){
+        //console.log('loading about');
+      })
+    </script>
